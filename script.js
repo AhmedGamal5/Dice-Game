@@ -59,7 +59,7 @@ btnHold.addEventListener("click", function () {
     scores[activePlayer] += currentScore;
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       game = false;
       diceImage.classList.add("hidden");
       document
